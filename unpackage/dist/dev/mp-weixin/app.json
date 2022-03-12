@@ -1,59 +1,59 @@
 {
   "pages": [
-    "pages/tabbar/tabbar-1/tabbar-1",
-    "pages/tabbar/tabbar-2/tabbar-2",
-    "pages/tabbar/tabbar-3/tabbar-3",
-    "pages/tabbar/tabbar-4/tabbar-4",
-    "pages/tabbar/tabbar-5/tabbar-5",
-    "pages/tabbar-3-detial/tabbar-3-release/tabbar-3-release",
-    "pages/tabbar-3-detial/tabbar-3-video/tabbar-3-video",
-    "pages/tabbar-3-detial/tabbar-3-qa/tabbar-3-qa"
+    "pages/tabbar/home/index",
+    "pages/tabbar/news/index",
+    "pages/tabbar/post/index",
+    "pages/tabbar/messages/index",
+    "pages/tabbar/profile/index",
+    "pages/post-detial/post-good/index",
+    "pages/post-detial/post-video/index",
+    "pages/post-detial/post-graphic/index"
   ],
   "subPackages": [],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8"
+    "navigationBarTitleText": "JiDao",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF",
+    "enablePullDownRefresh": true
   },
   "tabBar": {
-    "borderStyle": "black",
-    "backgroundColor": "#333",
-    "color": "#8F8F94",
-    "selectedColor": "#f33e54",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "color": "808080",
+    "selectedColor": "#1D1D1F",
     "list": [
       {
-        "pagePath": "pages/tabbar/tabbar-1/tabbar-1",
-        "iconPath": "static/img/tabbar/home.png",
-        "selectedIconPath": "static/img/tabbar/homeactive.png",
+        "pagePath": "pages/tabbar/home/index",
+        "iconPath": "static/img/tabbar/icon/home.png",
+        "selectedIconPath": "static/img/tabbar/icon/home-selected.png",
         "text": "首页"
       },
       {
-        "pagePath": "pages/tabbar/tabbar-2/tabbar-2",
-        "iconPath": "static/img/tabbar/guanzhu.png",
-        "selectedIconPath": "static/img/tabbar/guanzhuactive.png",
-        "text": "关注"
+        "pagePath": "pages/tabbar/news/index",
+        "iconPath": "static/img/tabbar/icon/shouye.png",
+        "selectedIconPath": "static/img/tabbar/icon/shouye-selected.png",
+        "text": "主页"
       },
       {
-        "pagePath": "pages/tabbar/tabbar-3/tabbar-3",
-        "iconPath": "static/img/tabbar/add.png",
-        "selectedIconPath": "static/img/tabbar/addactive.png",
+        "pagePath": "pages/tabbar/post/index",
+        "iconPath": "static/img/tabbar/icon/post2.png",
+        "selectedIconPath": "static/img/tabbar/icon/post.png",
         "text": "发布"
       },
       {
-        "pagePath": "pages/tabbar/tabbar-4/tabbar-4",
-        "iconPath": "static/img/tabbar/news.png",
-        "selectedIconPath": "static/img/tabbar/newsactive.png",
+        "pagePath": "pages/tabbar/messages/index",
+        "iconPath": "static/img/tabbar/icon/message-selectd.png",
+        "selectedIconPath": "static/img/tabbar/icon/message-selected.png",
         "text": "消息"
       },
       {
-        "pagePath": "pages/tabbar/tabbar-5/tabbar-5",
-        "iconPath": "static/img/tabbar/me.png",
-        "selectedIconPath": "static/img/tabbar/meactive.png",
-        "text": "我"
+        "pagePath": "pages/tabbar/profile/index",
+        "iconPath": "static/img/tabbar/icon/setting.png",
+        "selectedIconPath": "static/img/tabbar/icon/setting-seleted.png",
+        "text": "我的"
       }
     ]
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap.json"
+  "usingComponents": {}
 }

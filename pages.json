@@ -2,89 +2,87 @@
 	"pages": [
 		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/tabbar/tabbar-1/tabbar-1",
-			"style": {
-				"navigationBarTitleText": "uni-app"
-			}
+			"path": "pages/tabbar/home/index"
 		},
 		{
-			"path": "pages/tabbar/tabbar-2/tabbar-2",
+			"path": "pages/tabbar/news/index",
 			"style": {}
 		},
 		{
-			"path": "pages/tabbar/tabbar-3/tabbar-3",
+			"path": "pages/tabbar/post/index",
 			"style": {}
 		},
 		{
-			"path": "pages/tabbar/tabbar-4/tabbar-4",
+			"path": "pages/tabbar/messages/index",
 			"style": {}
 		},
 		{
-			"path": "pages/tabbar/tabbar-5/tabbar-5",
+			"path": "pages/tabbar/profile/index",
 			"style": {}
 		},
 		{
-			"path": "pages/tabbar-3-detial/tabbar-3-release/tabbar-3-release",
+			"path": "pages/post-detial/post-good/index",
 			"style": {}
 		},
 		{
-			"path": "pages/tabbar-3-detial/tabbar-3-video/tabbar-3-video",
+			"path": "pages/post-detial/post-video/index",
 			"style": {}
 		},
 		{
-			"path": "pages/tabbar-3-detial/tabbar-3-qa/tabbar-3-qa",
+			"path": "pages/post-detial/post-graphic/index",
 			"style": {}
 		}
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"navigationBarTitleText": "JiDao",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF",
+		"enablePullDownRefresh": true
 	},
 	"tabBar": {
-		"borderStyle": "black",
-		"backgroundColor": "#333",
-		"color": "#8F8F94",
-		"selectedColor": "#f33e54",
+		"borderStyle": "white",
+		"backgroundColor": "#FFFFFF",
+		"color": "808080",
+		"selectedColor": "#1D1D1F",
 		"list": [{
-				"pagePath": "pages/tabbar/tabbar-1/tabbar-1",
-				"iconPath": "static/img/tabbar/home.png",
-				"selectedIconPath": "static/img/tabbar/homeactive.png",
+				"pagePath": "pages/tabbar/home/index",
+				"iconPath": "static/img/tabbar/icon/home.png",
+				"selectedIconPath": "static/img/tabbar/icon/home-selected.png",
 				"text": "首页"
 			},
 			{
-				"pagePath": "pages/tabbar/tabbar-2/tabbar-2",
-				"iconPath": "static/img/tabbar/guanzhu.png",
-				"selectedIconPath": "static/img/tabbar/guanzhuactive.png",
-				"text": "关注"
+				"pagePath": "pages/tabbar/news/index",
+				"iconPath": "static/img/tabbar/icon/shouye.png",
+				"selectedIconPath": "static/img/tabbar/icon/shouye-selected.png",
+				"text": "主页"
 			},
 			//#ifdef MP-WEIXIN
 			{
-				"pagePath": "pages/tabbar/tabbar-3/tabbar-3",
-				"iconPath": "static/img/tabbar/add.png",
-				"selectedIconPath": "static/img/tabbar/addactive.png",
+				"pagePath": "pages/tabbar/post/index",
+				"iconPath": "static/img/tabbar/icon/post2.png",
+				"selectedIconPath": "static/img/tabbar/icon/post.png",
 				"text": "发布"
 			},
 			//#endif
 			//#ifndef MP-WEIXIN
 			{
-				"pagePath": "pages/tabbar/tabbar-3/tabbar-3",
+				"pagePath": "pages/tabbar/post/index",
 				"iconPath": "static/img/tabbar/add.png",
 				"selectedIconPath": "static/img/tabbar/addactive.png"
 			},
 			//#endif
 			{
-				"pagePath": "pages/tabbar/tabbar-4/tabbar-4",
-				"iconPath": "static/img/tabbar/news.png",
-				"selectedIconPath": "static/img/tabbar/newsactive.png",
+				"pagePath": "pages/tabbar/messages/index",
+				"iconPath": "static/img/tabbar/icon/message-selectd.png",
+				"selectedIconPath": "static/img/tabbar/icon/message-selected.png",
 				"text": "消息"
 			},
 			{
-				"pagePath": "pages/tabbar/tabbar-5/tabbar-5",
-				"iconPath": "static/img/tabbar/me.png",
-				"selectedIconPath": "static/img/tabbar/meactive.png",
-				"text": "我"
+				"pagePath": "pages/tabbar/profile/index",
+				"iconPath": "static/img/tabbar/icon/setting.png",
+				"selectedIconPath": "static/img/tabbar/icon/setting-seleted.png",
+				"text": "我的"
 			}
 		]
 	}
